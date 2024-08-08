@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formados em Geociências</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #buttonContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="./img/logo/logo-ig-unb-2.png" alt="Logo" height="100" class="d-inline-block align-text-top">
+                </a>
+            </div>
+        </nav>
+        <h2 class="text-center">Formados em Geociências</h2>
+        <div id="fetching">
+            <h2 class="text-center">Cursos:</h2>
+            <div id="buttonContainer" class="d-flex flex-column align-items-center"></div>
+        </div>
+    </div>
+    <script src="./js/curso.js" async></script>
+</body>
+</html>
